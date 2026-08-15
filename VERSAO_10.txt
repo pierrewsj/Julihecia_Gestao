@@ -1,0 +1,4 @@
+JULIH & CIA GESTÃO V10
+Gestão: pasta /gestao/.
+PIN inicial: 2026.
+Botão/ícone Instalar incluído no aplicativo.

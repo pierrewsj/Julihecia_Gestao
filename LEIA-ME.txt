@@ -1,0 +1,16 @@
+JULIH & CIA — GESTÃO V10
+
+PIN inicial: 2026
+
+Publicação:
+- no pacote completo, envie a pasta gestao inteira para /Julihcia/gestao/.
+- endereço esperado: /Julihcia/gestao/
+
+Instalação:
+- o ícone/botão Instalar fica dentro do próprio aplicativo enquanto ele não estiver instalado.
+- Android/Chrome: tenta abrir o instalador nativo; se não estiver disponível, mostra o passo a passo.
+- iPhone/iPad: mostra as instruções para Adicionar à Tela de Início.
+
+Separação:
+- Gestão usa manifest, cache, service worker e ícone próprios.
+- não contém o botão Fazer pedido.

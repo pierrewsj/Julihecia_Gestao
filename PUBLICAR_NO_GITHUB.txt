@@ -1,0 +1,9 @@
+JULIH & CIA V10
+
+Envie o CONTEÚDO deste ZIP para a raiz do repositório Julihcia.
+
+Cliente: https://SEUUSUARIO.github.io/Julihcia/
+Gestão:  https://SEUUSUARIO.github.io/Julihcia/gestao/
+
+Os dois aplicativos possuem instalação PWA independente, botão Instalar dentro do app, ícones diferentes e caches separados.
+PIN inicial da Gestão: 2026.
