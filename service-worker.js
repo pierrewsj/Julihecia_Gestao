@@ -1,6 +1,0 @@
-const CACHE_VERSION='julih-gestao-v10';
-const APP_SHELL=['./','./index.html','./styles.css','./pwa.js','./art.js','./app.js','./config.js','./manifest.json','./assets/icon-192.png','./assets/icon-512.png'];
-self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE_VERSION).then(c=>c.addAll(APP_SHELL))));
-self.addEventListener('activate',e=>e.waitUntil((async()=>{const keys=await caches.keys();await Promise.all(keys.filter(k=>k.startsWith('julih-gestao-')&&k!==CACHE_VERSION).map(k=>caches.delete(k)));await self.clients.claim();})()));
-self.addEventListener('message',e=>{if(e.data?.type==='SKIP_WAITING')self.skipWaiting();});
-self.addEventListener('fetch',e=>{const r=e.request;if(r.method!=='GET')return;const u=new URL(r.url);if(u.origin!==self.location.origin)return;const critical=r.mode==='navigate'||/(index\.html|styles\.css|pwa\.js|art\.js|app\.js|config\.js|manifest\.json)$/.test(u.pathname);if(critical){e.respondWith(fetch(r,{cache:'no-store'}).then(async resp=>{if(resp.ok)(await caches.open(CACHE_VERSION)).put(r.mode==='navigate'?'./index.html':r,resp.clone());return resp}).catch(async()=>await caches.match(r)||await caches.match('./index.html')));return;}e.respondWith(caches.match(r).then(c=>c||fetch(r).then(async resp=>{if(resp.ok)(await caches.open(CACHE_VERSION)).put(r,resp.clone());return resp})));});
