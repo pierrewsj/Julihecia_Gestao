@@ -1,7 +1,0 @@
-VALIDAÇÕES V16.1
-- app.js: sintaxe validada com Node.
-- Novo pedido manual usa lista dos produtos sincronizados da aba Produtos.
-- Opção Outro / item personalizado mantida.
-- Quantidade recalcula o valor sugerido quando o produto possui preço.
-- Gestão continua compatível com Cliente e mesma URL do Apps Script.
-- Cache PWA alterado para julih-gestao-v16-1.
