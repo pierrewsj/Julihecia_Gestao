@@ -1,2 +1,0 @@
-Julih & Cia Gestão V16.2
-Correção do salvamento de produtos e persistência do token administrativo.
