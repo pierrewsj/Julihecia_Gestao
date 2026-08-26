@@ -1,7 +1,0 @@
-V16.3
-- app.js validado com node --check
-- service worker usa cache julih-gestao-v16-3
-- salvamento de produto chama upsertProduct antes da foto
-- mensagem de erro do backend permanece visível no formulário
-- banner verde somente após resposta real do Apps Script
-- backend V8 contém reparo da aba Produtos e diagnóstico administrativo
