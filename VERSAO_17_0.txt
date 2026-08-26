@@ -1,0 +1,8 @@
+Julih & Cia Gestão V17.0 — Desempenho
+
+- Status otimista: muda na tela imediatamente e sincroniza em segundo plano.
+- Endpoint rápido updateOrderStatus no Apps Script V13.
+- Atualização automática de 45s busca apenas Pedidos + Clientes.
+- Salvar pedido, despesa e estoque atualiza os dados locais sem recarregar toda a planilha.
+- Upload de foto associa a imagem ao produto na mesma chamada.
+- Sincronização completa continua disponível no botão Atualizar.

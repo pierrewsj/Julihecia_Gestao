@@ -1,0 +1,9 @@
+MELHORIAS DE DESEMPENHO V17
+
+1. Troca de status: resposta visual imediata.
+2. Enquanto o Google salva, aparece “Sincronizando...”.
+3. Se a gravação falhar, o status anterior é restaurado automaticamente.
+4. O app não executa mais adminBootstrap após cada gravação.
+5. O polling de novos pedidos usa adminOrders, um retorno bem menor.
+6. O Apps Script V13 possui updateOrderStatus, que altera somente status e atualizadoEm.
+7. Cancelar/reativar ainda recalcula o histórico financeiro do cliente.
