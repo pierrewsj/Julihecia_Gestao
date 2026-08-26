@@ -1,4 +1,0 @@
-1. Atualize primeiro o Apps Script para V8 e execute REPARAR_PRODUTOS_AGORA.
-2. Faça nova versão da implantação mantendo a mesma URL /exec.
-3. Depois publique estes arquivos da Gestão no repositório.
-4. Em Configurações, use Testar conexão. A faixa só ficará verde após resposta real do backend.
