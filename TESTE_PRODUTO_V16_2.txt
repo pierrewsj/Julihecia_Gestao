@@ -1,0 +1,1 @@
+Validações: JS sintático; fluxo salva produto antes do upload da foto; falha da foto não cancela cadastro; token migra de V13/V14/V15/V16/V16.1.
