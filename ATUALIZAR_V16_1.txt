@@ -1,0 +1,4 @@
+1. Atualize primeiro o Apps Script para V5 e execute atualizarEstruturaV5().
+2. Crie uma NOVA VERSÃO da implantação do Apps Script.
+3. Depois substitua os arquivos do repositório Gestão pelos deste ZIP.
+4. Não é necessário alterar o app Cliente.
