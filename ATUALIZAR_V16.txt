@@ -1,4 +1,0 @@
-1. Atualize primeiro o Apps Script para V4 e execute atualizarEstruturaV4().
-2. Em Implantar > Gerenciar implantações, publique uma NOVA VERSÃO mantendo a mesma URL /exec.
-3. Depois substitua os arquivos do repositório da Gestão pelos arquivos deste ZIP.
-4. Abra o aplicativo e use Atualizar quando o PWA informar nova versão.
