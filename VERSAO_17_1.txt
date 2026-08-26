@@ -1,0 +1,8 @@
+Julih & Cia Gestão V17.1 — Status no Início + Desempenho
+
+- Restaura os botões completos de status também em Início > Pedidos de hoje.
+- Mantém status otimista e sincronização em segundo plano da V17.0.
+- Pronta entrega continua sem a etapa Em produção.
+- Botões: Recebido, Confirmado, Em produção (quando aplicável), Pronto, Entregue e Cancelar.
+- Botão Abrir pedido permanece disponível no card.
+- Cache PWA atualizado para julih-gestao-v17-1.
