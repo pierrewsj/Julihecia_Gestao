@@ -1,0 +1,5 @@
+CLIENTES V16.9
+- Pedido manual pesquisa cliente por nome, WhatsApp ou codigo C1/C2/...
+- Ao selecionar, nome, WhatsApp e codigo sao preenchidos automaticamente.
+- Novo cliente e cadastrado automaticamente ao salvar o pedido.
+- Pedidos do app Cliente tambem alimentam a aba Clientes pelo Apps Script V12.
