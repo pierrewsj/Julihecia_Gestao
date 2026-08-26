@@ -1,2 +1,0 @@
-Julih & Cia Gestão V16.9
-Cadastro de clientes com ID sequencial e busca inteligente no pedido manual.
