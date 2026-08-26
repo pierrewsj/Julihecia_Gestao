@@ -1,0 +1,3 @@
+Novos produtos recebem código sequencial automaticamente pelo backend.
+Não é necessário digitar código no app.
+Produtos existentes mantêm seus códigos.
