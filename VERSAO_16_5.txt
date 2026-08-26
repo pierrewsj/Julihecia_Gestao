@@ -1,2 +1,0 @@
-Julih & Cia Gestão V16.5
-Correção de imagens do Google Drive e fallback visual.
