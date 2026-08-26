@@ -1,0 +1,3 @@
+CAUSA RAIZ: campos input name="id" sobrescreviam a propriedade form.id no DOM.
+CORREÇÃO: o roteamento dos submits agora usa form.getAttribute("id").
+Afeta principalmente Produto e Pedido.
