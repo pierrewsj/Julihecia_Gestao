@@ -1,0 +1,2 @@
+V16.5: converte links antigos drive.google.com/uc para drive.google.com/thumbnail.
+Se uma imagem ainda não puder ser lida, mostra o emoji em vez de imagem quebrada.

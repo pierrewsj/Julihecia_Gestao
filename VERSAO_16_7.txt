@@ -1,0 +1,3 @@
+Julih & Cia Gestão V16.7
+Atualização rápida de status nos cartões de pedidos.
+Fluxo: Recebido > Confirmado > Em produção > Pronto > Entregue.
